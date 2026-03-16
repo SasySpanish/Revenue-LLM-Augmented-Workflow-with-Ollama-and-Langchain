@@ -1,9 +1,13 @@
 # Revenue AI Agent with Ollama and LangChain
 
-An autonomous financial analysis agent that takes a natural language prompt,
+An automated financial analysis agent that takes a natural language prompt,
 resolves company names to stock tickers, runs a full fundamental analysis,
 and produces charts, an interactive dashboard, and a written report — all locally,
 with no external API keys required.
+
+The orchestration pipeline is handled deterministically in Python. The LLM
+(running locally via Ollama) is used for natural language understanding and
+for writing the discursive report commentary.
 
 ---
 
