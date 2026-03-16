@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wheelhouse"
+version = "0.1.0"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = [
+    "config",
+    "fetcher",
+    "indicators",
+    "market_data",
+    "trend_analysis",
+    "trend_dashboard",
+    "visualizer",
+    "runner",
+]
