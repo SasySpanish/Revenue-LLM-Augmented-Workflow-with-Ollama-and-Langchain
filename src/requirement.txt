@@ -1,0 +1,17 @@
+langchain>=1.2.0
+langchain-ollama>=0.3.0
+langchain-community>=0.3.0
+langgraph>=1.1.0
+langchain-core>=1.2.0
+```
+
+---
+
+La struttura finale di `rev-agent/` deve essere:
+```
+rev-agent/
+├── ticker_resolver.py
+├── tool_analysis.py
+├── report_generator.py
+├── agent.py
+└── requirements.txt
